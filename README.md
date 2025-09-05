@@ -1,6 +1,6 @@
 # Next.js SEO Blog Starter
 
-A modern, SEO-optimized blog starter template built with Next.js 14, TypeScript, and Tailwind CSS. This template focuses on performance, SEO best practices, and a great developer experience.
+A clean blog starter built with Next.js 14 and TypeScript. Ready to deploy and easy to customize.
 
 [![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/GanLiuuuu/nextjs-seo-blog-starter)
 
@@ -17,30 +17,22 @@ A modern, SEO-optimized blog starter template built with Next.js 14, TypeScript,
 
 ## Features
 
-- **⚡️ Next.js 14**: Utilizing the latest features including App Router and Server Components
-- **🎯 SEO Optimized**: Built-in metadata optimization, JSON-LD, and OpenGraph tags
-- **📱 Responsive Design**: Beautiful and responsive design using Tailwind CSS
-- **🎨 Modern Styling**: Clean and minimal design with Tailwind CSS
-- **📝 Markdown Support**: Write your blog posts in Markdown with frontmatter
-- **🏷️ Tag System**: Organize your content with tags
-- **📊 Analytics Ready**: Easy integration with your preferred analytics tool
-- **🔍 Search Engine Friendly**: Optimized for search engines out of the box
-- **🚀 Fast Page Loads**: Optimized for Core Web Vitals
-- **📱 Mobile-First**: Designed with mobile-first approach
-- **🎨 Beautiful Pages**: 
-  - Clean and modern home page layout
-  - Responsive post pages with optimal reading experience
-  - Stylish 404 page with helpful navigation
+- Next.js 14 with App Router
+- SEO metadata and OpenGraph tags
+- Responsive design with Tailwind CSS
+- Write posts in Markdown
+- Tag system for organizing content
+- Analytics support
+- Custom 404 page
+- Mobile-friendly
 
 ## Quick Start
 
-### Deploy on Vercel (Recommended)
-
-The easiest way to deploy your blog is to use the [Vercel Platform](https://vercel.com):
+### Deploy on Vercel
 
 1. Click the "Deploy with Vercel" button above
-2. Follow the deployment steps
-3. Your blog will be live in minutes!
+2. Follow the setup steps
+3. Done!
 
 ### Local Development
 
@@ -58,7 +50,7 @@ npm install
 npm run dev
 ```
 
-Visit [http://localhost:3000](http://localhost:3000) to see your blog.
+Open [http://localhost:3000](http://localhost:3000) in your browser.
 
 ## Project Structure
 
@@ -96,11 +88,11 @@ Your content here...
 
 ### Styling
 
-This template uses Tailwind CSS for styling. Customize the design by modifying:
+Uses Tailwind CSS. Customize by editing:
 
-- `tailwind.config.js` - Theme configuration
+- `tailwind.config.js` - Colors, fonts, etc.
 - `styles/globals.css` - Global styles
-- Individual component styles
+- Component files for specific styling
 
 ### Metadata
 
@@ -127,7 +119,7 @@ Contributions are welcome! Please feel free to submit a Pull Request.
 
 ## License
 
-MIT License - feel free to use this template for your own blog!
+MIT License
 
 ## Support
 
